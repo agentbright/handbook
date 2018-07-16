@@ -10,4 +10,5 @@
 * [Installing Ruby](installing-ruby.md)
 * [Setup](setup-1.md)
 * [Git Protocol](git-protocol.md)
+* [Overcommit](overcommit.md)
 
