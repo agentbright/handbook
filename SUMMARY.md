@@ -12,9 +12,9 @@
   * [Installing Ruby](local-environment/installing-ruby.md)
   * [App Setup](local-environment/setup-1.md)
 * [Workflow](workflow/README.md)
+  * [GitHub and Zenhub](workflow/github-and-zenhub.md)
   * [Git Protocol](workflow/git-protocol.md)
   * [Overcommit](workflow/overcommit.md)
-  * [GitHub and Zenhub](workflow/github-and-zenhub.md)
   * [New Pull Requests](workflow/new-pull-requests.md)
   * [QA](workflow/qa.md)
 

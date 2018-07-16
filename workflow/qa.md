@@ -23,11 +23,11 @@ The test reviewer will visit the Heroku staging app deployment, verify that the 
 
 ## Code review
 
-Assign @heyogrady as a reviewer.
+Assign @heyogrady as a **Reviewer** on GitHub.
 
 ## Rework
 
-If either the code reviewer or test reviewer has any questions, comments or requested changes, they will leave comments with those changes, and then apply the label `Ready for: Rework`.
+If either the code reviewer or test reviewer has any questions, comments or requested changes, they will leave comments with those changes, addressed to the author, and then apply the label `Ready for: Rework`.
 
 ## Merging
 

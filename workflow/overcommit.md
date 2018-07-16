@@ -6,7 +6,7 @@ description: How we use overcommit to run checks on our code locally
 
 ## Pre-commit checks
 
-Overcommit will make the following pre-commit checks:
+[Overcommit](https://github.com/brigade/overcommit) will make the following pre-commit checks:
 
 * Check Gemfile dependencies
 * Check for local paths in Gemfile
@@ -66,7 +66,7 @@ This will run the checks across the entire repository, not just the files you've
 
 ## Overriding overcommit
 
-There will be times when you need to make a commit despite an overcommit failure. You might be fixing code that has an issue that is out of scope. Or you might want to commit work-in-progress changes.
+There will be times when you need to make a commit despite an overcommit check failure. You might be fixing code that has an issue that is out of scope. Or you might want to commit work-in-progress changes.
 
 You can skip overcommit by running:
 

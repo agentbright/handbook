@@ -42,14 +42,14 @@ $ git status
 $ git commit
 ```
 
-Write a good commit message. Here is the format we follow:
+Write a good commit message. 99% of the time, use present tense verbs like **Add** or **Change** or **Create** to begin each bullet point. Here is the format we follow:
 
 ```text
 #3425 - <Present tense summary of commit>
 
-- Add thing to fix thing
-- Add other thing
-- Change thing to new thing
+- Create integrations model, controller and routes
+- Add reference to thing
+- Change thing to different thing
 ```
 
 ## Push to GitHub

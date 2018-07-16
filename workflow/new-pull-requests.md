@@ -12,13 +12,13 @@ If you get a message saying there has been a problem with deployment, go to [her
 
 ## CircleCI
 
-The test suite is automatically run on each push by CircleCI.
+The test suite is automatically run on each push by [CircleCI](https://circleci.com/).
 
 CircleCI has three stages: build, tests, and upload-coverage.
 
 ## CodeClimate
 
-CodeClimate will review the code for styling issues, code smells and security risks.
+[CodeClimate](https://codeclimate.com/) will review the code for styling issues, code smells and security risks.
 
 CodeClimate also will compare test coverage. All new code must have more than 90% coverage to pass.
 
