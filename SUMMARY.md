@@ -1,6 +1,6 @@
 # Table of contents
 
-* [How We Work](README.md)
+* [Handbook](README.md)
 * [Introduction](introduction.md)
 * [Getting Work Done](getting-work-done/README.md)
   * [How We Work](getting-work-done/getting-things-done.md)
