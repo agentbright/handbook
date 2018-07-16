@@ -1,4 +1,4 @@
-# Getting Things Done
+# How We Work
 
 We are a remote company, and we are highly focused on getting things done.
 

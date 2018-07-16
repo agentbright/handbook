@@ -3,7 +3,7 @@
 * [How We Work](README.md)
 * [Introduction](introduction.md)
 * [Getting Work Done](getting-work-done/README.md)
-  * [Getting Things Done](getting-work-done/getting-things-done.md)
+  * [How We Work](getting-work-done/getting-things-done.md)
   * [Working Remotely](getting-work-done/working-remotely.md)
   * [Radical Candor](getting-work-done/radical-candor.md)
 * [Local Environment](local-environment/README.md)
@@ -14,4 +14,7 @@
 * [Workflow](workflow/README.md)
   * [Git Protocol](workflow/git-protocol.md)
   * [Overcommit](workflow/overcommit.md)
+  * [GitHub and Zenhub](workflow/github-and-zenhub.md)
+  * [New Pull Requests](workflow/new-pull-requests.md)
+  * [QA](workflow/qa.md)
 
