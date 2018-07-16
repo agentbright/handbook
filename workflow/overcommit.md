@@ -1,6 +1,8 @@
-# Overcommit
+---
+description: How we use overcommit to run checks on our code locally
+---
 
-We use overcommit to run checks on our code before committing.
+# Overcommit
 
 ## Pre-commit checks
 

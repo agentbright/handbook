@@ -1,4 +1,4 @@
-# Setup
+# App Setup
 
 After you pull the branch, execute these commands on the root folder of the project:
 

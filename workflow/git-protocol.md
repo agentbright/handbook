@@ -1,10 +1,10 @@
 ---
-description: A guide for programming
+description: Our workflow for creating and pushing code
 ---
 
 # Git Protocol
 
-## Create an issue branch
+## Creating an issue branch
 
 Create a local issue branch based off master.
 
@@ -16,6 +16,8 @@ $ git pull
 $ git checkout -b 3254-fix-sequences-ordering
 ```
 
+## Rebasing your code
+
 Rebase your code frequently to incorporate upstream changes
 
 ```text
@@ -23,7 +25,11 @@ $ git fetch origin
 $ git rebase origin/master
 ```
 
-Resolve conflicts. When feature is complete and tests pass, stage the changes
+Resolve conflicts
+
+## Committing changes
+
+When feature is complete and tests pass, stage the changes
 
 ```text
 $ git add --all
@@ -36,7 +42,7 @@ $ git status
 $ git commit
 ```
 
-Write a good commit message. Format:
+Write a good commit message. Here is the format we follow:
 
 ```text
 #3425 - <Present tense summary of commit>
@@ -45,6 +51,8 @@ Write a good commit message. Format:
 - Add other thing
 - Change thing to new thing
 ```
+
+## Push to GitHub
 
 When you are ready to share your branch, if you have created more than one commit, use git rebase to interactively squash them into cohesive commits with good messages:
 
@@ -58,9 +66,9 @@ Push your branch to GitHub
 $ git push
 ```
 
-## Submitting a Pull Request
+## Submitting a pull request
 
-We use hub to convert our issues into Pull Requests.
+We use hub to convert our issues into pull requests.
 
 When you are ready to submit your branch for review, after the branch is pushed to GitHub, convert the issue to a pull request:
 
