@@ -28,6 +28,10 @@ Writing clear, descriptive commit messages are very important to us, especially 
 
 One way to get instant feedback on code is the use of live code linters. We have used [SublimeLinter](http://www.sublimelinter.com/en/stable/) with [SublimeLinter-rubocop](https://github.com/SublimeLinter/SublimeLinter-rubocop) for viewing rubocop violations live in Sublime Text, as well as Guard for Test Driven Development.
 
+{% hint style="danger" %}
+You might run into some issues if you use a Git GUI to make commits, because some of them do not support git hooks, and fail to show you the full message contents from a failing check.
+{% endhint %}
+
 ## Pre-commit checks
 
 When you run `git commit`, [Overcommit](https://github.com/brigade/overcommit) will run the following pre-commit checks:
@@ -65,7 +69,7 @@ If any of the checks fail, your commit will be interrupted.
 
 ## Commit message checks
 
-Overcommit also checks for commit message formatting. Good, clear commit messages are important. Here are the rules for commit messages:
+Overcommit also checks for commit message formatting. Good, clear commit messages are important. Here is the styling we enforce for commit messages:
 
 * The subject message \(first line\) must be in this format: `#<issue number> - <Overview of commit>`
 * The subject message line must not exceed 60 characters
